@@ -1,0 +1,12 @@
+php ./gamephp/test.php start -d 1 8202 8002
+php ./gamephp/runtime2-game2.php start -d 2 8204 9人牛牛1
+php ./gamephp/runtime5-game1.php start -d 5 8207 6人斗牛1
+php ./gamephp/runtime6-game5.php start -d 6 8208 炸金花
+php ./gamephp/runtime8-game10.php start -d 8 8210 12
+php ./gamephp/runtime9-game3.php start -d 9 8211 三公
+php ./gamephp/runtime10-game14.php start -d 10 8205 9人牛牛8倍
+php ./gamephp/runtime11-game4.php start -d 11 8206 九人三公
+php ./gamephp/runtime13-game15.php start -d 13 8209 10人斗牛
+php ./gamephp/runtime14-game6.php start -d 14 8203 二八杠
+php ./gamephp/runtime17-game16.php start -d 17 8213 九人炸金花
+php ./gamephp/runtime18-game17.php start -d 18 8214 	12人吉祥三公

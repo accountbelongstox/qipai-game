@@ -1,0 +1,1073 @@
+[ 2018-03-17T12:08:17+08:00 ] 117.135.212.76 /?_360safeparam=410478812
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000284s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:08:18+08:00 ] 117.135.212.76 /?_360safeparam=410478812
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000250s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:10:36+08:00 ] 113.96.219.250 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000236s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:10:58+08:00 ] 117.135.212.76 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000312s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:11:01+08:00 ] 117.135.212.76 /index.php?&code=011mZibs16zAHo0nVO7s1iCgbs1mZibR&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000196s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant weixin_appid - assumed 'weixin_appid' /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant weixin_key - assumed 'weixin_key' /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant access_token - assumed 'access_token' /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 42 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `jz_options` SET `option_value`='{\"weixin_appid\":\"wx104328794691b762\",\"weixin_key\":\"ee519b5610b336efb156dfabb98c8a2e\",\"access_token\":\"7_FmbMLAcGcQfgBZmkXfjsUpqJlOQhIDHzTq1dbQ3eybg-9jaVw_k_8lmPb_fGpKu7NSYOhflnAbDdbpAQiEiMoaG4Ut9h9ut348TYHvAiZ-NfKWv90Oq3Hw4yjGcTOReAEAAVY\",\"access_token_time\":1521259861,\"jsapi_ticket\":\"HoagFKDcsGMVCIY2vOjf9tSoGrGqvEdaGzw3jBQcBozwZwVCu2_V95_I-Cn08Kt8i_Ac2iamOUrUjiAAm06z-A\",\"jsapi_ticket_time\":\"1520248135\",\"skin_name\":\"test-\\u795e\\u517d,baihu-\\u767d\\u864e,qinglong-\\u9752\\u9f99,zhuque-\\u6731\\u96c0,xuanwu-\\u7384\\u6b66,qilin-\\u9e92\\u9e9f,dasheng-\\u5927\\u5723,dasheng2-\\u8054\\u5408,dasheng3-\\u98de\\u9e70,dasheng4-518\"}' WHERE `option_name` = 'extract' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_user` WHERE `openid` = 'ozUk8wVBani7Ai_Su3bUuEbcfWbI' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_user` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `jz_user` (`id`,`user_login`,`password`,`create_time`,`last_time`,`reg_ip`,`img`,`nickname`,`nickname_base64`,`sex`,`openid`,`fk`) VALUES ('223788','test223788','test','2018-03-17 12:11:01','2018-03-17 12:11:01','117.135.212.76','http://thirdwx.qlogo.cn/mmopen/vi_32/iaZjI9N2ibibafzghRM0EyX4OO6u2YGiaHFvho2qIoJqYJlRf7CbP4eOABIHSoiaOcY1XdQqg2a7KJI5SRRgsXicreNg/132','蓦然回首','6JOm54S25Zue6aaW','1','ozUk8wVBani7Ai_Su3bUuEbcfWbI','0') [ RunTime:0.0200s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0034s ]
+SQL: UPDATE `jz_user` SET `openid`='ozUk8wVBani7Ai_Su3bUuEbcfWbI',`last_login_ip`='117.135.212.76',`last_time`='2018-03-17 12:11:01' WHERE `id` = 223788 [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: name /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: istongyi /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+
+[ 2018-03-17T12:15:34+08:00 ] 117.135.212.76 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005768s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003070s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010307s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:15:36+08:00 ] 117.135.212.76 /?_360safeparam=410940000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:15:48+08:00 ] 117.135.212.76 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000205s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:15:52+08:00 ] 117.135.212.76 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000193s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:15:54+08:00 ] 117.135.212.76 /?_360safeparam=410958359
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000230s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:16:02+08:00 ] 113.96.219.250 /index.php?&code=001RTLLx1c19Zg0z2LLx19HILx1RTLLx&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000238s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant weixin_appid - assumed 'weixin_appid' /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant weixin_key - assumed 'weixin_key' /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant access_token - assumed 'access_token' /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `jz_user` WHERE `openid` = 'ozUk8wVBani7Ai_Su3bUuEbcfWbI' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `jz_user` SET `openid`='ozUk8wVBani7Ai_Su3bUuEbcfWbI',`last_login_ip`='117.135.212.12',`last_time`='2018-03-17 12:16:02' WHERE `id` = 223788 [ RunTime:0.1224s ]
+NOTIC: [8] Undefined variable: name /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0772s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: istongyi /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006543s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.006958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013526s ]
+
+[ 2018-03-17T12:16:04+08:00 ] 113.96.219.250 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000156s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: istongyi /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+
+[ 2018-03-17T12:16:08+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=081eW1rW12qelT01zTsW1FYkrW1eW1r2&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000143s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: istongyi /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+
+[ 2018-03-17T12:16:09+08:00 ] 113.96.219.250 /index.php/portal/index/tongyi
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000205s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.037717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037750s ]
+
+[ 2018-03-17T12:16:09+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=081eW1rW12qelT01zTsW1FYkrW1eW1r2&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000143s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='d09eecb0b91d28e15dba868f5fc1b95e' WHERE `id` = 223788 [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2018-03-17T12:16:09+08:00 ] 113.96.219.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000173s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2018-03-17T12:16:45+08:00 ] 117.135.212.76 /index.php?_360safeparam=410958359&code=081fNFFd2fQPME0dKcId2cIIFd2fNFFr&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000271s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant weixin_appid - assumed 'weixin_appid' /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant weixin_key - assumed 'weixin_key' /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant access_token - assumed 'access_token' /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `openid` = 'ozUk8wbN0K9BC2dQsKDZipKb5GuI' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_user` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `jz_user` (`id`,`user_login`,`password`,`create_time`,`last_time`,`reg_ip`,`img`,`nickname`,`nickname_base64`,`sex`,`openid`,`fk`) VALUES ('223875','test223875','test','2018-03-17 12:16:44','2018-03-17 12:16:44','117.135.212.76','http://thirdwx.qlogo.cn/mmopen/vi_32/anKicVR4ib4ibjAz5jqQlfMMDyPkfskGJGN0f5ibk87icWMHKhzgI0drwy8xBwPZQssf3bpUlzj8fibyibpSAKzFBc3Xw/132','过客','6L+H5a6i','1','ozUk8wbN0K9BC2dQsKDZipKb5GuI','0') [ RunTime:0.0451s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0043s ]
+SQL: UPDATE `jz_user` SET `openid`='ozUk8wbN0K9BC2dQsKDZipKb5GuI',`last_login_ip`='117.135.212.76',`last_time`='2018-03-17 12:16:45' WHERE `id` = 223875 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: name /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: istongyi /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+
+[ 2018-03-17T12:16:47+08:00 ] 117.135.212.76 /index.php/portal/index/tongyi
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000202s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2018-03-17T12:16:47+08:00 ] 117.135.212.76 /index.php?_360safeparam=410958359&code=081fNFFd2fQPME0dKcId2cIIFd2fNFFr&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='89810219bc43f222146bc5c8c593a3ce' WHERE `id` = 223875 [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2018-03-17T12:16:47+08:00 ] 117.135.212.76 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000197s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2018-03-17T12:16:57+08:00 ] 117.135.212.76 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000189s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='bdf0c5f74f7e3b05f49381f3b5995528' WHERE `id` = 223875 [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2018-03-17T12:16:57+08:00 ] 117.135.212.76 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000190s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2018-03-17T12:17:09+08:00 ] 117.135.212.76 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000191s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='281ff631b3cef5be9155315d61c0e4b3' WHERE `id` = 223875 [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2018-03-17T12:17:09+08:00 ] 117.135.212.76 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2018-03-17T12:31:40+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=011nVrRE0MekKd2YkZOE0hOsRE0nVrRs&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000164s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='fd22fdb78c24710243060d265fa00d8f' WHERE `id` = 223788 [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2018-03-17T12:31:41+08:00 ] 113.96.219.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000146s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2018-03-17T12:31:41+08:00 ] 121.51.14.22 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T12:32:11+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=061MIZvh2byodH0Qc8zh2gEBvh2MIZvR&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000146s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='b30cb24c02200306ee6640511dbe6a7a' WHERE `id` = 223788 [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2018-03-17T12:34:28+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=021pHZEK18kxO50KRIGK11kTEK1pHZEv&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000153s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='0a50e5465a71ee64fb8be09c2bbf02e3' WHERE `id` = 223788 [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2018-03-17T12:34:28+08:00 ] 113.96.219.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000146s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2018-03-17T12:48:41+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=061o5PmJ1DOgO40eEUnJ1kb4nJ1o5Pm9&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011077s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001742s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014371s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0055s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='e0ddfb6aee3c42b8cfef56357779b0ca' WHERE `id` = 223788 [ RunTime:0.0145s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005396s ]
+
+[ 2018-03-17T12:48:41+08:00 ] 113.96.219.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000236s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-03-17T12:48:56+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=011kdRY90Advyv1ExtW90aRWY90kdRYk&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000177s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='a8338ec2279217be97dd68f032a07c86' WHERE `id` = 223788 [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000242s ]
+
+[ 2018-03-17T12:48:56+08:00 ] 113.96.219.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000147s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2018-03-17T12:49:27+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=081zBj4u1nvzjd0NJ64u1P7j4u1zBj4M&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000178s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='f024b65253b4f776c2274fea62b19ebb' WHERE `id` = 223788 [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2018-03-17T12:49:27+08:00 ] 113.96.219.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000143s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2018-03-17T12:49:30+08:00 ] 117.135.212.76 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.014667s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015156s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='30532e811761f54be34d1ce379d408f0' WHERE `id` = 223875 [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2018-03-17T12:49:31+08:00 ] 117.135.212.76 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2018-03-17T12:49:32+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=011OTp302A2dv11PJj5027DI302OTp3l&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000145s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='8750af4f08b891193a9ec026dcf0dc39' WHERE `id` = 223788 [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2018-03-17T12:49:32+08:00 ] 113.96.219.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000176s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2018-03-17T12:49:53+08:00 ] 117.135.212.76 /index.php?_360safeparam=410958359&code=071jRrN604eDdK1OsyM60q8nN60jRrNK&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000216s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='126d5405810f0870eb206f745ce9027c' WHERE `id` = 223875 [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2018-03-17T12:49:53+08:00 ] 117.135.212.76 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000225s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223875 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2018-03-17T12:55:44+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=081qpW1E0eH6re2zU14E0pTz1E0qpW1f&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004954s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002265s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008484s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0167s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='df5f7c9b4acc9fb0ddfbf5bf40955dc7' WHERE `id` = 223788 [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2018-03-17T12:55:44+08:00 ] 113.96.219.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000147s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2018-03-17T12:55:50+08:00 ] 113.96.219.250 /index.php?_360safeparam=410958359&code=001KgGID1eXcF303ufJD1KdVID1KgGI3&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='3d20ce1f800bdbc2a635b380e80f27fb' WHERE `id` = 223788 [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/g/application/Portal/Controller/IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2018-03-17T12:55:50+08:00 ] 113.96.219.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000145s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 223788 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2018-03-17T12:56:30+08:00 ] 117.135.212.76 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001460s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2018-03-17T13:18:18+08:00 ] 222.215.22.97 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000261s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/g/application/Common/Controller/HomebaseController.class.php 第 33 行.
+

@@ -1,0 +1,1826 @@
+2018-01-21 18:44:05 pid:30066 Workerman[./server.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30073 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30076 Workerman[./gamephp/game1.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30080 Workerman[./gamephp/game2.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30084 Workerman[./gamephp/game3.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30088 Workerman[./gamephp/game4.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30093 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30099 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30106 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30110 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30113 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30119 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-01-21 18:44:06 pid:30123 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-01-21 18:44:26 pid:30131 Workerman[./server.php] restart 
+2018-01-21 18:44:26 pid:30131 Workerman[./server.php] is stoping ...
+2018-01-21 18:44:26 pid:30069 Workerman[server.php] stopping ...
+2018-01-21 18:44:26 pid:30069 Workerman[server.php] has been stopped
+2018-01-21 18:44:26 pid:30131 Workerman[./server.php] stop success
+2018-01-21 18:45:36 pid:30075 Workerman[test.php] stopping ...
+2018-01-21 18:46:22 pid:10331 Workerman[./server.php] start in DAEMON mode
+2018-01-21 18:46:22 pid:10339 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-01-21 18:46:22 pid:10342 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-01-21 18:46:22 pid:10345 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-01-21 18:46:23 pid:10350 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-01-21 18:46:23 pid:10354 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-01-21 18:46:23 pid:10358 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-01-21 18:46:23 pid:10362 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-01-21 18:46:23 pid:10369 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-01-21 18:46:23 pid:10376 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-01-21 18:46:23 pid:10381 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-01-21 18:46:23 pid:10388 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-01-21 18:46:23 pid:10392 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-01-31 15:59:07 pid:10355 Error: Call to undefined method stdClass::close() in /www/wwwroot/nn/auto/gamephp/runtime6-game5.php(133) : eval()'d code:85
+Stack trace:
+#0 /www/wwwroot/nn/auto/gamephp/runtime6-game5.php(133): eval()
+#1 /www/wwwroot/nn/auto/gamephp/runtime6-game5.php(74): reqact(Array, NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"timeout":1517...')
+#3 /www/wwwroot/nn/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"timeout":1517...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#5 /www/wwwroot/nn/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /www/wwwroot/nn/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /www/wwwroot/nn/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /www/wwwroot/nn/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/nn/auto/gamephp/workerman/Worker.php(445): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/nn/auto/gamephp/runtime6-game5.php(113): Workerman\Worker::runAll()
+#11 {main}
+2018-01-31 15:59:07 pid:10355 Worker[10355] process terminated
+2018-01-31 15:59:07 pid:10353 worker[none:10355] exit with status 64000
+2018-02-04 21:59:40 pid:10393 Error: Call to undefined method stdClass::close() in /www/wwwroot/nn/auto/gamephp/runtime17-game16.php(133) : eval()'d code:85
+Stack trace:
+#0 /www/wwwroot/nn/auto/gamephp/runtime17-game16.php(133): eval()
+#1 /www/wwwroot/nn/auto/gamephp/runtime17-game16.php(74): reqact(Array, NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"timeout":1517...')
+#3 /www/wwwroot/nn/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"timeout":1517...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#5 /www/wwwroot/nn/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /www/wwwroot/nn/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /www/wwwroot/nn/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /www/wwwroot/nn/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /www/wwwroot/nn/auto/gamephp/workerman/Worker.php(445): Workerman\Worker::forkWorkers()
+#10 /www/wwwroot/nn/auto/gamephp/runtime17-game16.php(113): Workerman\Worker::runAll()
+#11 {main}
+2018-02-04 21:59:40 pid:10393 Worker[10393] process terminated
+2018-02-04 21:59:40 pid:10391 worker[none:10393] exit with status 64000
+2018-02-18 20:53:48 pid:2714 Workerman[./server.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2720 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2723 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2727 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2731 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2735 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2739 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2743 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2748 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2754 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2760 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2766 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-02-18 20:53:48 pid:2772 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-02-18 20:54:01 pid:2783 Workerman[./server.php] restart 
+2018-02-18 20:54:01 pid:2783 Workerman[./server.php] is stoping ...
+2018-02-18 20:54:01 pid:2716 Workerman[server.php] stopping ...
+2018-02-18 20:54:01 pid:2716 Workerman[server.php] has been stopped
+2018-02-18 20:54:01 pid:2783 Workerman[./server.php] stop success
+2018-02-18 20:54:29 pid:2789 Workerman[./server.php] restart 
+2018-02-18 20:54:29 pid:2789 Workerman[./server.php] is stoping ...
+2018-02-18 20:54:29 pid:2783 Workerman[server.php] stopping ...
+2018-02-18 20:54:29 pid:2783 Workerman[server.php] has been stopped
+2018-02-18 20:54:29 pid:2789 Workerman[./server.php] stop success
+2018-02-18 20:54:29 pid:2791 Workerman[./gamephp/test.php] restart 
+2018-02-18 20:54:29 pid:2791 Workerman[./gamephp/test.php] is stoping ...
+2018-02-18 20:54:29 pid:2722 Workerman[test.php] stopping ...
+2018-02-18 20:54:29 pid:2722 Workerman[test.php] has been stopped
+2018-02-18 20:54:29 pid:2791 Workerman[./gamephp/test.php] stop success
+2018-02-18 20:54:29 pid:2796 Workerman[./gamephp/game1.php] restart 
+2018-02-18 20:54:29 pid:2796 Workerman[./gamephp/game1.php] is stoping ...
+2018-02-18 20:54:29 pid:2796 Workerman[./gamephp/game1.php] stop success
+2018-02-18 20:54:29 pid:2799 Workerman[./gamephp/game2.php] restart 
+2018-02-18 20:54:29 pid:2799 Workerman[./gamephp/game2.php] is stoping ...
+2018-02-18 20:54:29 pid:2799 Workerman[./gamephp/game2.php] stop success
+2018-02-18 20:54:29 pid:2802 Workerman[./gamephp/game3.php] restart 
+2018-02-18 20:54:29 pid:2802 Workerman[./gamephp/game3.php] is stoping ...
+2018-02-18 20:54:29 pid:2802 Workerman[./gamephp/game3.php] stop success
+2018-02-18 20:54:29 pid:2805 Workerman[./gamephp/game4.php] restart 
+2018-02-18 20:54:29 pid:2805 Workerman[./gamephp/game4.php] is stoping ...
+2018-02-18 20:54:29 pid:2805 Workerman[./gamephp/game4.php] stop success
+2018-02-18 20:54:29 pid:2808 Workerman[./gamephp/game5.php] restart 
+2018-02-18 20:54:29 pid:2808 Workerman[./gamephp/game5.php] is stoping ...
+2018-02-18 20:54:29 pid:2808 Workerman[./gamephp/game5.php] stop success
+2018-02-18 20:54:29 pid:2811 Workerman[./gamephp/game6.php] restart 
+2018-02-18 20:54:29 pid:2811 Workerman[./gamephp/game6.php] is stoping ...
+2018-02-18 20:54:29 pid:2811 Workerman[./gamephp/game6.php] stop success
+2018-02-18 20:54:29 pid:2813 Workerman[./gamephp/game10.php] restart 
+2018-02-18 20:54:29 pid:2813 Workerman[./gamephp/game10.php] is stoping ...
+2018-02-18 20:54:29 pid:2813 Workerman[./gamephp/game10.php] stop success
+2018-02-18 20:54:29 pid:2817 Workerman[./gamephp/game14.php] restart 
+2018-02-18 20:54:29 pid:2817 Workerman[./gamephp/game14.php] is stoping ...
+2018-02-18 20:54:29 pid:2817 Workerman[./gamephp/game14.php] stop success
+2018-02-18 20:54:29 pid:2820 Workerman[./gamephp/game15.php] restart 
+2018-02-18 20:54:29 pid:2820 Workerman[./gamephp/game15.php] is stoping ...
+2018-02-18 20:54:29 pid:2820 Workerman[./gamephp/game15.php] stop success
+2018-02-18 20:54:29 pid:2823 Workerman[./gamephp/game16.php] restart 
+2018-02-18 20:54:29 pid:2823 Workerman[./gamephp/game16.php] is stoping ...
+2018-02-18 20:54:29 pid:2823 Workerman[./gamephp/game16.php] stop success
+2018-02-18 20:54:29 pid:2826 Workerman[./gamephp/game17.php] restart 
+2018-02-18 20:54:29 pid:2826 Workerman[./gamephp/game17.php] is stoping ...
+2018-02-18 20:54:29 pid:2826 Workerman[./gamephp/game17.php] stop success
+2018-02-18 20:54:36 pid:2832 Workerman[./server.php] restart 
+2018-02-18 20:54:36 pid:2832 Workerman[./server.php] is stoping ...
+2018-02-18 20:54:36 pid:2789 Workerman[server.php] stopping ...
+2018-02-18 20:54:36 pid:2789 Workerman[server.php] has been stopped
+2018-02-18 20:54:36 pid:2832 Workerman[./server.php] stop success
+2018-02-18 20:54:36 pid:2834 Workerman[./gamephp/test.php] restart 
+2018-02-18 20:54:36 pid:2834 Workerman[./gamephp/test.php] is stoping ...
+2018-02-18 20:54:36 pid:2794 Workerman[test.php] stopping ...
+2018-02-18 20:54:36 pid:2794 Workerman[test.php] has been stopped
+2018-02-18 20:54:36 pid:2834 Workerman[./gamephp/test.php] stop success
+2018-02-18 20:54:36 pid:2837 Workerman[./gamephp/game1.php] restart 
+2018-02-18 20:54:36 pid:2837 Workerman[./gamephp/game1.php] is stoping ...
+2018-02-18 20:54:36 pid:2837 Workerman[./gamephp/game1.php] stop success
+2018-02-18 20:54:36 pid:2842 Workerman[./gamephp/game2.php] restart 
+2018-02-18 20:54:36 pid:2842 Workerman[./gamephp/game2.php] is stoping ...
+2018-02-18 20:54:36 pid:2842 Workerman[./gamephp/game2.php] stop success
+2018-02-18 20:54:36 pid:2845 Workerman[./gamephp/game3.php] restart 
+2018-02-18 20:54:36 pid:2845 Workerman[./gamephp/game3.php] is stoping ...
+2018-02-18 20:54:36 pid:2845 Workerman[./gamephp/game3.php] stop success
+2018-02-18 20:54:36 pid:2848 Workerman[./gamephp/game4.php] restart 
+2018-02-18 20:54:36 pid:2848 Workerman[./gamephp/game4.php] is stoping ...
+2018-02-18 20:54:36 pid:2848 Workerman[./gamephp/game4.php] stop success
+2018-02-18 20:54:36 pid:2851 Workerman[./gamephp/game5.php] restart 
+2018-02-18 20:54:36 pid:2851 Workerman[./gamephp/game5.php] is stoping ...
+2018-02-18 20:54:36 pid:2851 Workerman[./gamephp/game5.php] stop success
+2018-02-18 20:54:37 pid:2854 Workerman[./gamephp/game6.php] restart 
+2018-02-18 20:54:37 pid:2854 Workerman[./gamephp/game6.php] is stoping ...
+2018-02-18 20:54:37 pid:2854 Workerman[./gamephp/game6.php] stop success
+2018-02-18 20:54:37 pid:2856 Workerman[./gamephp/game10.php] restart 
+2018-02-18 20:54:37 pid:2856 Workerman[./gamephp/game10.php] is stoping ...
+2018-02-18 20:54:37 pid:2856 Workerman[./gamephp/game10.php] stop success
+2018-02-18 20:54:37 pid:2860 Workerman[./gamephp/game14.php] restart 
+2018-02-18 20:54:37 pid:2860 Workerman[./gamephp/game14.php] is stoping ...
+2018-02-18 20:54:37 pid:2860 Workerman[./gamephp/game14.php] stop success
+2018-02-18 20:54:37 pid:2863 Workerman[./gamephp/game15.php] restart 
+2018-02-18 20:54:37 pid:2863 Workerman[./gamephp/game15.php] is stoping ...
+2018-02-18 20:54:37 pid:2863 Workerman[./gamephp/game15.php] stop success
+2018-02-18 20:54:37 pid:2866 Workerman[./gamephp/game16.php] restart 
+2018-02-18 20:54:37 pid:2866 Workerman[./gamephp/game16.php] is stoping ...
+2018-02-18 20:54:37 pid:2866 Workerman[./gamephp/game16.php] stop success
+2018-02-18 20:54:37 pid:2869 Workerman[./gamephp/game17.php] restart 
+2018-02-18 20:54:37 pid:2869 Workerman[./gamephp/game17.php] is stoping ...
+2018-02-18 20:54:37 pid:2869 Workerman[./gamephp/game17.php] stop success
+2018-02-18 20:54:46 pid:2875 Workerman[./server.php] restart 
+2018-02-18 20:54:46 pid:2875 Workerman[./server.php] is stoping ...
+2018-02-18 20:54:46 pid:2832 Workerman[server.php] stopping ...
+2018-02-18 20:54:46 pid:2832 Workerman[server.php] has been stopped
+2018-02-18 20:54:46 pid:2875 Workerman[./server.php] stop success
+2018-02-18 20:54:46 pid:2877 Workerman[./gamephp/test.php] restart 
+2018-02-18 20:54:46 pid:2877 Workerman[./gamephp/test.php] is stoping ...
+2018-02-18 20:54:46 pid:2838 Workerman[test.php] stopping ...
+2018-02-18 20:54:46 pid:2838 Workerman[test.php] has been stopped
+2018-02-18 20:54:46 pid:2877 Workerman[./gamephp/test.php] stop success
+2018-02-18 20:54:46 pid:2883 Workerman[./gamephp/game1.php] restart 
+2018-02-18 20:54:46 pid:2883 Workerman[./gamephp/game1.php] is stoping ...
+2018-02-18 20:54:46 pid:2883 Workerman[./gamephp/game1.php] stop success
+2018-02-18 20:54:46 pid:2887 Workerman[./gamephp/game2.php] restart 
+2018-02-18 20:54:46 pid:2887 Workerman[./gamephp/game2.php] is stoping ...
+2018-02-18 20:54:46 pid:2887 Workerman[./gamephp/game2.php] stop success
+2018-02-18 20:54:46 pid:2890 Workerman[./gamephp/game3.php] restart 
+2018-02-18 20:54:46 pid:2890 Workerman[./gamephp/game3.php] is stoping ...
+2018-02-18 20:54:46 pid:2890 Workerman[./gamephp/game3.php] stop success
+2018-02-18 20:54:46 pid:2893 Workerman[./gamephp/game4.php] restart 
+2018-02-18 20:54:46 pid:2893 Workerman[./gamephp/game4.php] is stoping ...
+2018-02-18 20:54:46 pid:2893 Workerman[./gamephp/game4.php] stop success
+2018-02-18 20:54:46 pid:2896 Workerman[./gamephp/game5.php] restart 
+2018-02-18 20:54:46 pid:2896 Workerman[./gamephp/game5.php] is stoping ...
+2018-02-18 20:54:46 pid:2896 Workerman[./gamephp/game5.php] stop success
+2018-02-18 20:54:46 pid:2899 Workerman[./gamephp/game6.php] restart 
+2018-02-18 20:54:46 pid:2899 Workerman[./gamephp/game6.php] is stoping ...
+2018-02-18 20:54:46 pid:2899 Workerman[./gamephp/game6.php] stop success
+2018-02-18 20:54:46 pid:2902 Workerman[./gamephp/game10.php] restart 
+2018-02-18 20:54:46 pid:2902 Workerman[./gamephp/game10.php] is stoping ...
+2018-02-18 20:54:46 pid:2902 Workerman[./gamephp/game10.php] stop success
+2018-02-18 20:54:46 pid:2905 Workerman[./gamephp/game14.php] restart 
+2018-02-18 20:54:46 pid:2905 Workerman[./gamephp/game14.php] is stoping ...
+2018-02-18 20:54:46 pid:2905 Workerman[./gamephp/game14.php] stop success
+2018-02-18 20:54:46 pid:2908 Workerman[./gamephp/game15.php] restart 
+2018-02-18 20:54:46 pid:2908 Workerman[./gamephp/game15.php] is stoping ...
+2018-02-18 20:54:46 pid:2908 Workerman[./gamephp/game15.php] stop success
+2018-02-18 20:54:46 pid:2911 Workerman[./gamephp/game16.php] restart 
+2018-02-18 20:54:46 pid:2911 Workerman[./gamephp/game16.php] is stoping ...
+2018-02-18 20:54:46 pid:2911 Workerman[./gamephp/game16.php] stop success
+2018-02-18 20:54:46 pid:2915 Workerman[./gamephp/game17.php] restart 
+2018-02-18 20:54:46 pid:2915 Workerman[./gamephp/game17.php] is stoping ...
+2018-02-18 20:54:46 pid:2915 Workerman[./gamephp/game17.php] stop success
+2018-02-19 19:20:24 pid:6789 Workerman[./server.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6789 Workerman[./server.php] already running
+2018-02-19 19:20:24 pid:6792 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6792 Workerman[./gamephp/test.php] already running
+2018-02-19 19:20:24 pid:6793 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6793 Workerman[./gamephp/runtime2-game2.php] already running
+2018-02-19 19:20:24 pid:6794 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6794 Workerman[./gamephp/runtime5-game1.php] already running
+2018-02-19 19:20:24 pid:6795 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6795 Workerman[./gamephp/runtime6-game5.php] already running
+2018-02-19 19:20:24 pid:6796 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6796 Workerman[./gamephp/runtime8-game10.php] already running
+2018-02-19 19:20:24 pid:6797 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6797 Workerman[./gamephp/runtime9-game3.php] already running
+2018-02-19 19:20:24 pid:6798 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6798 Workerman[./gamephp/runtime10-game14.php] already running
+2018-02-19 19:20:24 pid:6799 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6799 Workerman[./gamephp/runtime11-game4.php] already running
+2018-02-19 19:20:24 pid:6800 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6800 Workerman[./gamephp/runtime13-game15.php] already running
+2018-02-19 19:20:24 pid:6801 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6801 Workerman[./gamephp/runtime14-game6.php] already running
+2018-02-19 19:20:24 pid:6802 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6802 Workerman[./gamephp/runtime17-game16.php] already running
+2018-02-19 19:20:24 pid:6803 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-02-19 19:20:24 pid:6803 Workerman[./gamephp/runtime18-game17.php] already running
+2018-02-19 19:21:07 pid:6807 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6807 Workerman[./gamephp/test.php] already running
+2018-02-19 19:21:07 pid:6808 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6808 Workerman[./gamephp/runtime2-game2.php] already running
+2018-02-19 19:21:07 pid:6809 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6809 Workerman[./gamephp/runtime5-game1.php] already running
+2018-02-19 19:21:07 pid:6810 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6810 Workerman[./gamephp/runtime6-game5.php] already running
+2018-02-19 19:21:07 pid:6811 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6811 Workerman[./gamephp/runtime8-game10.php] already running
+2018-02-19 19:21:07 pid:6812 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6812 Workerman[./gamephp/runtime9-game3.php] already running
+2018-02-19 19:21:07 pid:6813 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6813 Workerman[./gamephp/runtime10-game14.php] already running
+2018-02-19 19:21:07 pid:6814 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6814 Workerman[./gamephp/runtime11-game4.php] already running
+2018-02-19 19:21:07 pid:6815 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6815 Workerman[./gamephp/runtime13-game15.php] already running
+2018-02-19 19:21:07 pid:6816 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6816 Workerman[./gamephp/runtime14-game6.php] already running
+2018-02-19 19:21:07 pid:6817 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6817 Workerman[./gamephp/runtime17-game16.php] already running
+2018-02-19 19:21:07 pid:6818 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-02-19 19:21:07 pid:6818 Workerman[./gamephp/runtime18-game17.php] already running
+2018-02-19 19:21:16 pid:6827 Workerman[./server.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6827 Workerman[./server.php] already running
+2018-02-19 19:21:16 pid:6830 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6830 Workerman[./gamephp/test.php] already running
+2018-02-19 19:21:16 pid:6831 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6831 Workerman[./gamephp/runtime2-game2.php] already running
+2018-02-19 19:21:16 pid:6832 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6832 Workerman[./gamephp/runtime5-game1.php] already running
+2018-02-19 19:21:16 pid:6833 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6833 Workerman[./gamephp/runtime6-game5.php] already running
+2018-02-19 19:21:16 pid:6834 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6834 Workerman[./gamephp/runtime8-game10.php] already running
+2018-02-19 19:21:16 pid:6835 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6835 Workerman[./gamephp/runtime9-game3.php] already running
+2018-02-19 19:21:16 pid:6836 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6836 Workerman[./gamephp/runtime10-game14.php] already running
+2018-02-19 19:21:16 pid:6837 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6837 Workerman[./gamephp/runtime11-game4.php] already running
+2018-02-19 19:21:16 pid:6838 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6838 Workerman[./gamephp/runtime13-game15.php] already running
+2018-02-19 19:21:16 pid:6839 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6839 Workerman[./gamephp/runtime14-game6.php] already running
+2018-02-19 19:21:16 pid:6840 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6840 Workerman[./gamephp/runtime17-game16.php] already running
+2018-02-19 19:21:16 pid:6841 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-02-19 19:21:16 pid:6841 Workerman[./gamephp/runtime18-game17.php] already running
+2018-02-19 19:22:39 pid:6845 Workerman[./server.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6845 Workerman[./server.php] already running
+2018-02-19 19:22:39 pid:6848 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6848 Workerman[./gamephp/test.php] already running
+2018-02-19 19:22:39 pid:6849 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6849 Workerman[./gamephp/runtime2-game2.php] already running
+2018-02-19 19:22:39 pid:6850 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6850 Workerman[./gamephp/runtime5-game1.php] already running
+2018-02-19 19:22:39 pid:6851 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6851 Workerman[./gamephp/runtime6-game5.php] already running
+2018-02-19 19:22:39 pid:6852 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6852 Workerman[./gamephp/runtime8-game10.php] already running
+2018-02-19 19:22:39 pid:6853 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6853 Workerman[./gamephp/runtime9-game3.php] already running
+2018-02-19 19:22:39 pid:6854 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6854 Workerman[./gamephp/runtime10-game14.php] already running
+2018-02-19 19:22:39 pid:6855 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6855 Workerman[./gamephp/runtime11-game4.php] already running
+2018-02-19 19:22:39 pid:6856 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6856 Workerman[./gamephp/runtime13-game15.php] already running
+2018-02-19 19:22:39 pid:6857 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6857 Workerman[./gamephp/runtime14-game6.php] already running
+2018-02-19 19:22:39 pid:6858 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6858 Workerman[./gamephp/runtime17-game16.php] already running
+2018-02-19 19:22:39 pid:6859 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-02-19 19:22:39 pid:6859 Workerman[./gamephp/runtime18-game17.php] already running
+2018-02-19 19:22:44 pid:6863 Workerman[./server.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6863 Workerman[./server.php] already running
+2018-02-19 19:22:44 pid:6866 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6866 Workerman[./gamephp/test.php] already running
+2018-02-19 19:22:44 pid:6867 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6867 Workerman[./gamephp/runtime2-game2.php] already running
+2018-02-19 19:22:44 pid:6868 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6868 Workerman[./gamephp/runtime5-game1.php] already running
+2018-02-19 19:22:44 pid:6869 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6869 Workerman[./gamephp/runtime6-game5.php] already running
+2018-02-19 19:22:44 pid:6870 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6870 Workerman[./gamephp/runtime8-game10.php] already running
+2018-02-19 19:22:44 pid:6871 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6871 Workerman[./gamephp/runtime9-game3.php] already running
+2018-02-19 19:22:44 pid:6872 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6872 Workerman[./gamephp/runtime10-game14.php] already running
+2018-02-19 19:22:44 pid:6873 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6873 Workerman[./gamephp/runtime11-game4.php] already running
+2018-02-19 19:22:44 pid:6874 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6874 Workerman[./gamephp/runtime13-game15.php] already running
+2018-02-19 19:22:44 pid:6875 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6875 Workerman[./gamephp/runtime14-game6.php] already running
+2018-02-19 19:22:44 pid:6876 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6876 Workerman[./gamephp/runtime17-game16.php] already running
+2018-02-19 19:22:44 pid:6877 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-02-19 19:22:44 pid:6877 Workerman[./gamephp/runtime18-game17.php] already running
+2018-02-19 19:23:25 pid:2747 Workerman[runtime10-game14.php] stopping ...
+2018-02-19 19:23:25 pid:2742 Workerman[runtime9-game3.php] stopping ...
+2018-02-19 19:23:25 pid:2742 worker[none:2744] exit with status 4991
+2018-02-19 19:23:25 pid:2742 Workerman[runtime9-game3.php] has been stopped
+2018-02-19 19:23:25 pid:2771 Workerman[runtime17-game16.php] stopping ...
+2018-02-19 19:23:25 pid:2761 Workerman[runtime13-game15.php] stopping ...
+2018-02-19 19:23:25 pid:2734 Workerman[runtime6-game5.php] stopping ...
+2018-02-19 19:23:25 pid:2778 Workerman[runtime18-game17.php] stopping ...
+2018-02-19 19:23:25 pid:2875 Workerman[server.php] stopping ...
+2018-02-19 19:23:25 pid:2738 Workerman[runtime8-game10.php] stopping ...
+2018-02-19 19:23:25 pid:2726 Workerman[runtime2-game2.php] stopping ...
+2018-02-19 19:23:25 pid:2882 Workerman[test.php] stopping ...
+2018-02-19 19:23:25 pid:2882 worker[none:2884] exit with status 4991
+2018-02-19 19:23:25 pid:2882 Workerman[test.php] has been stopped
+2018-02-19 19:23:25 pid:2753 Workerman[runtime11-game4.php] stopping ...
+2018-02-19 19:23:25 pid:2753 worker[none:2755] exit with status 4991
+2018-02-19 19:23:25 pid:2753 Workerman[runtime11-game4.php] has been stopped
+2018-02-19 19:23:25 pid:2730 Workerman[runtime5-game1.php] stopping ...
+2018-02-19 19:23:25 pid:2765 Workerman[runtime14-game6.php] stopping ...
+2018-02-19 19:23:25 pid:2765 worker[none:2767] exit with status 4991
+2018-02-19 19:23:25 pid:2765 Workerman[runtime14-game6.php] has been stopped
+2018-02-19 19:24:47 pid:3142 Workerman[./server.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3149 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3152 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3155 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3160 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3164 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3168 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3172 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3177 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3183 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3189 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-02-19 19:24:47 pid:3194 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-02-19 19:24:48 pid:3200 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3227 Workerman[./server.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3227 Workerman[./server.php] already running
+2018-02-19 19:24:54 pid:3231 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3231 Workerman[./gamephp/test.php] already running
+2018-02-19 19:24:54 pid:3232 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3232 Workerman[./gamephp/runtime2-game2.php] already running
+2018-02-19 19:24:54 pid:3233 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3233 Workerman[./gamephp/runtime5-game1.php] already running
+2018-02-19 19:24:54 pid:3234 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3234 Workerman[./gamephp/runtime6-game5.php] already running
+2018-02-19 19:24:54 pid:3235 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3235 Workerman[./gamephp/runtime8-game10.php] already running
+2018-02-19 19:24:54 pid:3236 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3236 Workerman[./gamephp/runtime9-game3.php] already running
+2018-02-19 19:24:54 pid:3237 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3237 Workerman[./gamephp/runtime10-game14.php] already running
+2018-02-19 19:24:54 pid:3238 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3238 Workerman[./gamephp/runtime11-game4.php] already running
+2018-02-19 19:24:54 pid:3239 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3239 Workerman[./gamephp/runtime13-game15.php] already running
+2018-02-19 19:24:54 pid:3240 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3240 Workerman[./gamephp/runtime14-game6.php] already running
+2018-02-19 19:24:54 pid:3241 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3241 Workerman[./gamephp/runtime17-game16.php] already running
+2018-02-19 19:24:54 pid:3242 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-02-19 19:24:54 pid:3242 Workerman[./gamephp/runtime18-game17.php] already running
+2018-03-05 18:07:29 pid:3154 Workerman[./gamephp/test.php] restart 
+2018-03-05 18:07:29 pid:3154 Workerman[./gamephp/test.php] is stoping ...
+2018-03-05 18:07:29 pid:3154 Workerman[./gamephp/test.php] stop success
+2018-03-05 18:07:29 pid:3156 Workerman[./gamephp/game1.php] restart 
+2018-03-05 18:07:29 pid:3156 Workerman[./gamephp/game1.php] is stoping ...
+2018-03-05 18:07:29 pid:3156 Workerman[./gamephp/game1.php] stop success
+2018-03-05 18:07:29 pid:3160 Workerman[./gamephp/game2.php] restart 
+2018-03-05 18:07:29 pid:3160 Workerman[./gamephp/game2.php] is stoping ...
+2018-03-05 18:07:29 pid:3160 Workerman[./gamephp/game2.php] stop success
+2018-03-05 18:07:29 pid:3164 Workerman[./gamephp/game3.php] restart 
+2018-03-05 18:07:29 pid:3164 Workerman[./gamephp/game3.php] is stoping ...
+2018-03-05 18:07:29 pid:3164 Workerman[./gamephp/game3.php] stop success
+2018-03-05 18:07:29 pid:3168 Workerman[./gamephp/game4.php] restart 
+2018-03-05 18:07:29 pid:3168 Workerman[./gamephp/game4.php] is stoping ...
+2018-03-05 18:07:29 pid:3168 Workerman[./gamephp/game4.php] stop success
+2018-03-05 18:07:30 pid:3172 Workerman[./gamephp/game5.php] restart 
+2018-03-05 18:07:30 pid:3172 Workerman[./gamephp/game5.php] is stoping ...
+2018-03-05 18:07:30 pid:3172 Workerman[./gamephp/game5.php] stop success
+2018-03-05 18:07:30 pid:3176 Workerman[./gamephp/game6.php] restart 
+2018-03-05 18:07:30 pid:3176 Workerman[./gamephp/game6.php] is stoping ...
+2018-03-05 18:07:30 pid:3176 Workerman[./gamephp/game6.php] stop success
+2018-03-05 18:07:30 pid:3180 Workerman[./gamephp/game10.php] restart 
+2018-03-05 18:07:30 pid:3180 Workerman[./gamephp/game10.php] is stoping ...
+2018-03-05 18:07:30 pid:3180 Workerman[./gamephp/game10.php] stop success
+2018-03-05 18:07:30 pid:3184 Workerman[./gamephp/game14.php] restart 
+2018-03-05 18:07:30 pid:3184 Workerman[./gamephp/game14.php] is stoping ...
+2018-03-05 18:07:30 pid:3184 Workerman[./gamephp/game14.php] stop success
+2018-03-05 18:07:30 pid:3188 Workerman[./gamephp/game15.php] restart 
+2018-03-05 18:07:30 pid:3188 Workerman[./gamephp/game15.php] is stoping ...
+2018-03-05 18:07:30 pid:3188 Workerman[./gamephp/game15.php] stop success
+2018-03-05 18:07:30 pid:3192 Workerman[./gamephp/game16.php] restart 
+2018-03-05 18:07:30 pid:3192 Workerman[./gamephp/game16.php] is stoping ...
+2018-03-05 18:07:30 pid:3192 Workerman[./gamephp/game16.php] stop success
+2018-03-05 18:07:30 pid:3196 Workerman[./gamephp/game17.php] restart 
+2018-03-05 18:07:30 pid:3196 Workerman[./gamephp/game17.php] is stoping ...
+2018-03-05 18:07:30 pid:3196 Workerman[./gamephp/game17.php] stop success
+2018-03-05 18:08:35 pid:3206 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3206 Workerman[./gamephp/test.php] already running
+2018-03-05 18:08:35 pid:3207 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3209 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3213 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3215 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3218 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3221 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3225 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3227 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3230 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3233 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:08:35 pid:3236 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3245 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3245 Workerman[./gamephp/test.php] already running
+2018-03-05 18:08:50 pid:3246 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3248 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3251 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3255 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3257 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3261 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3263 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3266 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3269 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3272 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:08:50 pid:3275 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:09:17 pid:3283 Workerman[./gamephp/test.php] restart 
+2018-03-05 18:09:17 pid:3283 Workerman[./gamephp/test.php] is stoping ...
+2018-03-05 18:09:17 pid:3157 Workerman[test.php] stopping ...
+2018-03-05 18:09:17 pid:3157 Workerman[test.php] has been stopped
+2018-03-05 18:09:17 pid:3283 Workerman[./gamephp/test.php] stop success
+2018-03-05 18:09:17 pid:3285 Workerman[./gamephp/game1.php] restart 
+2018-03-05 18:09:17 pid:3285 Workerman[./gamephp/game1.php] is stoping ...
+2018-03-05 18:09:17 pid:3161 Workerman[game1.php] stopping ...
+2018-03-05 18:09:17 pid:3161 Workerman[game1.php] has been stopped
+2018-03-05 18:09:17 pid:3285 Workerman[./gamephp/game1.php] stop success
+2018-03-05 18:09:17 pid:3289 Workerman[./gamephp/game2.php] restart 
+2018-03-05 18:09:17 pid:3289 Workerman[./gamephp/game2.php] is stoping ...
+2018-03-05 18:09:17 pid:3165 Workerman[game2.php] stopping ...
+2018-03-05 18:09:17 pid:3165 Workerman[game2.php] has been stopped
+2018-03-05 18:09:17 pid:3289 Workerman[./gamephp/game2.php] stop success
+2018-03-05 18:09:17 pid:3293 Workerman[./gamephp/game3.php] restart 
+2018-03-05 18:09:17 pid:3293 Workerman[./gamephp/game3.php] is stoping ...
+2018-03-05 18:09:17 pid:3169 Workerman[game3.php] stopping ...
+2018-03-05 18:09:17 pid:3169 Workerman[game3.php] has been stopped
+2018-03-05 18:09:17 pid:3293 Workerman[./gamephp/game3.php] stop success
+2018-03-05 18:09:17 pid:3297 Workerman[./gamephp/game4.php] restart 
+2018-03-05 18:09:17 pid:3297 Workerman[./gamephp/game4.php] is stoping ...
+2018-03-05 18:09:17 pid:3173 Workerman[game4.php] stopping ...
+2018-03-05 18:09:17 pid:3173 Workerman[game4.php] has been stopped
+2018-03-05 18:09:17 pid:3297 Workerman[./gamephp/game4.php] stop success
+2018-03-05 18:09:17 pid:3301 Workerman[./gamephp/game5.php] restart 
+2018-03-05 18:09:17 pid:3301 Workerman[./gamephp/game5.php] is stoping ...
+2018-03-05 18:09:17 pid:3177 Workerman[game5.php] stopping ...
+2018-03-05 18:09:17 pid:3177 Workerman[game5.php] has been stopped
+2018-03-05 18:09:17 pid:3301 Workerman[./gamephp/game5.php] stop success
+2018-03-05 18:09:17 pid:3305 Workerman[./gamephp/game6.php] restart 
+2018-03-05 18:09:17 pid:3305 Workerman[./gamephp/game6.php] is stoping ...
+2018-03-05 18:09:17 pid:3181 Workerman[game6.php] stopping ...
+2018-03-05 18:09:17 pid:3181 Workerman[game6.php] has been stopped
+2018-03-05 18:09:17 pid:3305 Workerman[./gamephp/game6.php] stop success
+2018-03-05 18:09:18 pid:3309 Workerman[./gamephp/game10.php] restart 
+2018-03-05 18:09:18 pid:3309 Workerman[./gamephp/game10.php] is stoping ...
+2018-03-05 18:09:18 pid:3185 Workerman[game10.php] stopping ...
+2018-03-05 18:09:18 pid:3185 Workerman[game10.php] has been stopped
+2018-03-05 18:09:18 pid:3309 Workerman[./gamephp/game10.php] stop success
+2018-03-05 18:09:18 pid:3313 Workerman[./gamephp/game14.php] restart 
+2018-03-05 18:09:18 pid:3313 Workerman[./gamephp/game14.php] is stoping ...
+2018-03-05 18:09:18 pid:3189 Workerman[game14.php] stopping ...
+2018-03-05 18:09:18 pid:3189 Workerman[game14.php] has been stopped
+2018-03-05 18:09:18 pid:3313 Workerman[./gamephp/game14.php] stop success
+2018-03-05 18:09:18 pid:3317 Workerman[./gamephp/game15.php] restart 
+2018-03-05 18:09:18 pid:3317 Workerman[./gamephp/game15.php] is stoping ...
+2018-03-05 18:09:18 pid:3193 Workerman[game15.php] stopping ...
+2018-03-05 18:09:18 pid:3193 Workerman[game15.php] has been stopped
+2018-03-05 18:09:18 pid:3317 Workerman[./gamephp/game15.php] stop success
+2018-03-05 18:09:18 pid:3321 Workerman[./gamephp/game16.php] restart 
+2018-03-05 18:09:18 pid:3321 Workerman[./gamephp/game16.php] is stoping ...
+2018-03-05 18:09:18 pid:3197 Workerman[game16.php] stopping ...
+2018-03-05 18:09:18 pid:3197 Workerman[game16.php] has been stopped
+2018-03-05 18:09:18 pid:3321 Workerman[./gamephp/game16.php] stop success
+2018-03-05 18:09:18 pid:3325 Workerman[./gamephp/game17.php] restart 
+2018-03-05 18:09:18 pid:3325 Workerman[./gamephp/game17.php] is stoping ...
+2018-03-05 18:09:18 pid:3200 Workerman[game17.php] stopping ...
+2018-03-05 18:09:18 pid:3200 Workerman[game17.php] has been stopped
+2018-03-05 18:09:18 pid:3325 Workerman[./gamephp/game17.php] stop success
+2018-03-05 18:12:00 pid:3569 Workerman[./gamephp/test.php] restart 
+2018-03-05 18:12:00 pid:3569 Workerman[./gamephp/test.php] is stoping ...
+2018-03-05 18:12:00 pid:3286 Workerman[test.php] stopping ...
+2018-03-05 18:12:00 pid:3286 Workerman[test.php] has been stopped
+2018-03-05 18:12:00 pid:3569 Workerman[./gamephp/test.php] stop success
+2018-03-05 18:12:00 pid:3571 Workerman[./gamephp/game1.php] restart 
+2018-03-05 18:12:00 pid:3571 Workerman[./gamephp/game1.php] is stoping ...
+2018-03-05 18:12:00 pid:3290 Workerman[game1.php] stopping ...
+2018-03-05 18:12:00 pid:3290 Workerman[game1.php] has been stopped
+2018-03-05 18:12:00 pid:3571 Workerman[./gamephp/game1.php] stop success
+2018-03-05 18:12:00 pid:3575 Workerman[./gamephp/game2.php] restart 
+2018-03-05 18:12:00 pid:3575 Workerman[./gamephp/game2.php] is stoping ...
+2018-03-05 18:12:00 pid:3294 Workerman[game2.php] stopping ...
+2018-03-05 18:12:00 pid:3294 Workerman[game2.php] has been stopped
+2018-03-05 18:12:00 pid:3575 Workerman[./gamephp/game2.php] stop success
+2018-03-05 18:12:00 pid:3579 Workerman[./gamephp/game3.php] restart 
+2018-03-05 18:12:00 pid:3579 Workerman[./gamephp/game3.php] is stoping ...
+2018-03-05 18:12:00 pid:3298 Workerman[game3.php] stopping ...
+2018-03-05 18:12:00 pid:3298 Workerman[game3.php] has been stopped
+2018-03-05 18:12:00 pid:3579 Workerman[./gamephp/game3.php] stop success
+2018-03-05 18:12:00 pid:3583 Workerman[./gamephp/game4.php] restart 
+2018-03-05 18:12:00 pid:3583 Workerman[./gamephp/game4.php] is stoping ...
+2018-03-05 18:12:00 pid:3302 Workerman[game4.php] stopping ...
+2018-03-05 18:12:00 pid:3302 Workerman[game4.php] has been stopped
+2018-03-05 18:12:00 pid:3583 Workerman[./gamephp/game4.php] stop success
+2018-03-05 18:12:00 pid:3587 Workerman[./gamephp/game5.php] restart 
+2018-03-05 18:12:00 pid:3587 Workerman[./gamephp/game5.php] is stoping ...
+2018-03-05 18:12:00 pid:3306 Workerman[game5.php] stopping ...
+2018-03-05 18:12:00 pid:3306 Workerman[game5.php] has been stopped
+2018-03-05 18:12:00 pid:3587 Workerman[./gamephp/game5.php] stop success
+2018-03-05 18:12:00 pid:3591 Workerman[./gamephp/game6.php] restart 
+2018-03-05 18:12:00 pid:3591 Workerman[./gamephp/game6.php] is stoping ...
+2018-03-05 18:12:00 pid:3310 Workerman[game6.php] stopping ...
+2018-03-05 18:12:00 pid:3310 Workerman[game6.php] has been stopped
+2018-03-05 18:12:00 pid:3591 Workerman[./gamephp/game6.php] stop success
+2018-03-05 18:12:00 pid:3595 Workerman[./gamephp/game10.php] restart 
+2018-03-05 18:12:00 pid:3595 Workerman[./gamephp/game10.php] is stoping ...
+2018-03-05 18:12:00 pid:3314 Workerman[game10.php] stopping ...
+2018-03-05 18:12:00 pid:3314 Workerman[game10.php] has been stopped
+2018-03-05 18:12:00 pid:3595 Workerman[./gamephp/game10.php] stop success
+2018-03-05 18:12:00 pid:3599 Workerman[./gamephp/game14.php] restart 
+2018-03-05 18:12:00 pid:3599 Workerman[./gamephp/game14.php] is stoping ...
+2018-03-05 18:12:00 pid:3318 Workerman[game14.php] stopping ...
+2018-03-05 18:12:00 pid:3318 Workerman[game14.php] has been stopped
+2018-03-05 18:12:00 pid:3599 Workerman[./gamephp/game14.php] stop success
+2018-03-05 18:12:00 pid:3603 Workerman[./gamephp/game15.php] restart 
+2018-03-05 18:12:00 pid:3603 Workerman[./gamephp/game15.php] is stoping ...
+2018-03-05 18:12:00 pid:3322 Workerman[game15.php] stopping ...
+2018-03-05 18:12:00 pid:3322 Workerman[game15.php] has been stopped
+2018-03-05 18:12:00 pid:3603 Workerman[./gamephp/game15.php] stop success
+2018-03-05 18:12:00 pid:3607 Workerman[./gamephp/game16.php] restart 
+2018-03-05 18:12:00 pid:3607 Workerman[./gamephp/game16.php] is stoping ...
+2018-03-05 18:12:00 pid:3326 Workerman[game16.php] stopping ...
+2018-03-05 18:12:00 pid:3326 Workerman[game16.php] has been stopped
+2018-03-05 18:12:00 pid:3607 Workerman[./gamephp/game16.php] stop success
+2018-03-05 18:12:00 pid:3611 Workerman[./gamephp/game17.php] restart 
+2018-03-05 18:12:00 pid:3611 Workerman[./gamephp/game17.php] is stoping ...
+2018-03-05 18:12:00 pid:3329 Workerman[game17.php] stopping ...
+2018-03-05 18:12:00 pid:3329 Workerman[game17.php] has been stopped
+2018-03-05 18:12:00 pid:3611 Workerman[./gamephp/game17.php] stop success
+2018-03-05 18:20:40 pid:3573 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(445): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#11 {main}
+2018-03-05 18:20:40 pid:3573 Worker[3573] process terminated
+2018-03-05 18:20:40 pid:3572 worker[none:3573] exit with status 64000
+2018-03-05 18:20:40 pid:4105 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:20:40 pid:4105 Worker[4105] process terminated
+2018-03-05 18:20:40 pid:3572 worker[none:4105] exit with status 64000
+2018-03-05 18:20:40 pid:4106 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #35)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:20:40 pid:4106 Worker[4106] process terminated
+2018-03-05 18:20:40 pid:3572 worker[none:4106] exit with status 64000
+2018-03-05 18:20:40 pid:4107 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #36)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:20:40 pid:4107 Worker[4107] process terminated
+2018-03-05 18:20:40 pid:3572 worker[none:4107] exit with status 64000
+2018-03-05 18:20:40 pid:4108 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"5b545...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #37)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:20:40 pid:4108 Worker[4108] process terminated
+2018-03-05 18:20:40 pid:3572 worker[none:4108] exit with status 64000
+2018-03-05 18:21:41 pid:4109 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #38)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:41 pid:4109 Worker[4109] process terminated
+2018-03-05 18:21:41 pid:3572 worker[none:4109] exit with status 64000
+2018-03-05 18:21:41 pid:4152 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #39)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:41 pid:4152 Worker[4152] process terminated
+2018-03-05 18:21:41 pid:3572 worker[none:4152] exit with status 64000
+2018-03-05 18:21:41 pid:4153 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:41 pid:4153 Worker[4153] process terminated
+2018-03-05 18:21:41 pid:3572 worker[none:4153] exit with status 64000
+2018-03-05 18:21:41 pid:4154 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #41)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:41 pid:4154 Worker[4154] process terminated
+2018-03-05 18:21:41 pid:3572 worker[none:4154] exit with status 64000
+2018-03-05 18:21:41 pid:4155 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"15abe...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #42)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:41 pid:4155 Worker[4155] process terminated
+2018-03-05 18:21:41 pid:3572 worker[none:4155] exit with status 64000
+2018-03-05 18:21:48 pid:4156 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #43)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:48 pid:4156 Worker[4156] process terminated
+2018-03-05 18:21:48 pid:3572 worker[none:4156] exit with status 64000
+2018-03-05 18:21:48 pid:4161 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #44)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:48 pid:4161 Worker[4161] process terminated
+2018-03-05 18:21:48 pid:3572 worker[none:4161] exit with status 64000
+2018-03-05 18:21:48 pid:4162 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:48 pid:4162 Worker[4162] process terminated
+2018-03-05 18:21:48 pid:3572 worker[none:4162] exit with status 64000
+2018-03-05 18:21:48 pid:4163 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:48 pid:4163 Worker[4163] process terminated
+2018-03-05 18:21:48 pid:3572 worker[none:4163] exit with status 64000
+2018-03-05 18:21:48 pid:4164 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"526e8...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #47)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:48 pid:4164 Worker[4164] process terminated
+2018-03-05 18:21:48 pid:3572 worker[none:4164] exit with status 64000
+2018-03-05 18:21:55 pid:4165 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #48)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:55 pid:4165 Worker[4165] process terminated
+2018-03-05 18:21:55 pid:3572 worker[none:4165] exit with status 64000
+2018-03-05 18:21:55 pid:4168 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #49)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:55 pid:4168 Worker[4168] process terminated
+2018-03-05 18:21:55 pid:3572 worker[none:4168] exit with status 64000
+2018-03-05 18:21:55 pid:4169 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #50)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:55 pid:4169 Worker[4169] process terminated
+2018-03-05 18:21:55 pid:3572 worker[none:4169] exit with status 64000
+2018-03-05 18:21:56 pid:4170 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:56 pid:4170 Worker[4170] process terminated
+2018-03-05 18:21:56 pid:3572 worker[none:4170] exit with status 64000
+2018-03-05 18:21:56 pid:4171 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"f9ab9...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #52)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:21:56 pid:4171 Worker[4171] process terminated
+2018-03-05 18:21:56 pid:3572 worker[none:4171] exit with status 64000
+2018-03-05 18:22:41 pid:4172 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #53)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:41 pid:4172 Worker[4172] process terminated
+2018-03-05 18:22:41 pid:3572 worker[none:4172] exit with status 64000
+2018-03-05 18:22:41 pid:4186 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #54)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:41 pid:4186 Worker[4186] process terminated
+2018-03-05 18:22:41 pid:3572 worker[none:4186] exit with status 64000
+2018-03-05 18:22:41 pid:4187 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:41 pid:4187 Worker[4187] process terminated
+2018-03-05 18:22:42 pid:3572 worker[none:4187] exit with status 64000
+2018-03-05 18:22:42 pid:4188 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #56)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:42 pid:4188 Worker[4188] process terminated
+2018-03-05 18:22:42 pid:3572 worker[none:4188] exit with status 64000
+2018-03-05 18:22:42 pid:4189 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"2b907...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #57)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:42 pid:4189 Worker[4189] process terminated
+2018-03-05 18:22:42 pid:3572 worker[none:4189] exit with status 64000
+2018-03-05 18:22:49 pid:4190 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #58)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:49 pid:4190 Worker[4190] process terminated
+2018-03-05 18:22:49 pid:3572 worker[none:4190] exit with status 64000
+2018-03-05 18:22:49 pid:4193 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #59)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:49 pid:4193 Worker[4193] process terminated
+2018-03-05 18:22:49 pid:3572 worker[none:4193] exit with status 64000
+2018-03-05 18:22:49 pid:4194 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #60)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:49 pid:4194 Worker[4194] process terminated
+2018-03-05 18:22:49 pid:3572 worker[none:4194] exit with status 64000
+2018-03-05 18:22:49 pid:4195 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #61)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:49 pid:4195 Worker[4195] process terminated
+2018-03-05 18:22:49 pid:3572 worker[none:4195] exit with status 64000
+2018-03-05 18:22:49 pid:4196 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"edaed...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #62)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:22:49 pid:4196 Worker[4196] process terminated
+2018-03-05 18:22:49 pid:3572 worker[none:4196] exit with status 64000
+2018-03-05 18:23:57 pid:4197 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #63)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:23:57 pid:4197 Worker[4197] process terminated
+2018-03-05 18:23:57 pid:3572 worker[none:4197] exit with status 64000
+2018-03-05 18:23:57 pid:4662 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #64)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:23:57 pid:4662 Worker[4662] process terminated
+2018-03-05 18:23:57 pid:3572 worker[none:4662] exit with status 64000
+2018-03-05 18:23:57 pid:4663 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #65)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:23:57 pid:4663 Worker[4663] process terminated
+2018-03-05 18:23:57 pid:3572 worker[none:4663] exit with status 64000
+2018-03-05 18:23:58 pid:4664 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #66)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:23:58 pid:4664 Worker[4664] process terminated
+2018-03-05 18:23:58 pid:3572 worker[none:4664] exit with status 64000
+2018-03-05 18:23:58 pid:4665 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"d1a79...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #67)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:23:58 pid:4665 Worker[4665] process terminated
+2018-03-05 18:23:58 pid:3572 worker[none:4665] exit with status 64000
+2018-03-05 18:23:58 pid:4666 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"a6ed7...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"a6ed7...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #68)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:23:58 pid:4666 Worker[4666] process terminated
+2018-03-05 18:23:58 pid:3572 worker[none:4666] exit with status 64000
+2018-03-05 18:23:58 pid:4667 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"a6ed7...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"a6ed7...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #69)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:23:58 pid:4667 Worker[4667] process terminated
+2018-03-05 18:23:58 pid:3572 worker[none:4667] exit with status 64000
+2018-03-05 18:23:58 pid:4668 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"a6ed7...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"a6ed7...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #70)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:23:58 pid:4668 Worker[4668] process terminated
+2018-03-05 18:23:58 pid:3572 worker[none:4668] exit with status 64000
+2018-03-05 18:23:58 pid:4670 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"a6ed7...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"a6ed7...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #71)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:23:58 pid:4670 Worker[4670] process terminated
+2018-03-05 18:23:58 pid:3572 worker[none:4670] exit with status 64000
+2018-03-05 18:24:01 pid:4671 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #72)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:01 pid:4671 Worker[4671] process terminated
+2018-03-05 18:24:01 pid:3572 worker[none:4671] exit with status 64000
+2018-03-05 18:24:01 pid:4675 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #73)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:01 pid:4675 Worker[4675] process terminated
+2018-03-05 18:24:01 pid:3572 worker[none:4675] exit with status 64000
+2018-03-05 18:24:01 pid:4676 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #74)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:01 pid:4676 Worker[4676] process terminated
+2018-03-05 18:24:01 pid:3572 worker[none:4676] exit with status 64000
+2018-03-05 18:24:01 pid:4677 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #75)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:01 pid:4677 Worker[4677] process terminated
+2018-03-05 18:24:01 pid:3572 worker[none:4677] exit with status 64000
+2018-03-05 18:24:01 pid:4678 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"b5ce2...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #76)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:01 pid:4678 Worker[4678] process terminated
+2018-03-05 18:24:01 pid:3572 worker[none:4678] exit with status 64000
+2018-03-05 18:24:09 pid:4679 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #77)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:09 pid:4679 Worker[4679] process terminated
+2018-03-05 18:24:09 pid:3572 worker[none:4679] exit with status 64000
+2018-03-05 18:24:09 pid:4879 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #78)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:09 pid:4879 Worker[4879] process terminated
+2018-03-05 18:24:09 pid:3572 worker[none:4879] exit with status 64000
+2018-03-05 18:24:09 pid:4880 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #79)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:09 pid:4880 Worker[4880] process terminated
+2018-03-05 18:24:09 pid:3572 worker[none:4880] exit with status 64000
+2018-03-05 18:24:09 pid:4881 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #80)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:09 pid:4881 Worker[4881] process terminated
+2018-03-05 18:24:09 pid:3572 worker[none:4881] exit with status 64000
+2018-03-05 18:24:09 pid:4882 Error: Call to a member function getOne() on array in /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107) : eval()'d code:3
+Stack trace:
+#0 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(107): eval()
+#1 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(85): reqact(Array, Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#3 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Connection/TcpConnection.php(657): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"token":"cfedf...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #81)
+#5 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1882): Workerman\Events\Select->loop()
+#7 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1107): Workerman\Worker->run()
+#8 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1070): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(1225): Workerman\Worker::forkWorkers()
+#10 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/workerman/Worker.php(447): Workerman\Worker::monitorWorkers()
+#11 /home/admin/web/game-test.77yun.cn/public_html/auto/gamephp/test.php(87): Workerman\Worker::runAll()
+#12 {main}
+2018-03-05 18:24:09 pid:4882 Worker[4882] process terminated
+2018-03-05 18:24:09 pid:3572 worker[none:4882] exit with status 64000
+2018-03-05 18:24:27 pid:5063 Workerman[./server.php] restart 
+2018-03-05 18:24:27 pid:5063 Workerman[./server.php] is stoping ...
+2018-03-05 18:24:27 pid:5063 Workerman[./server.php] stop success
+2018-03-05 18:25:04 pid:5063 Workerman[server.php] stopping ...
+2018-03-05 18:25:04 pid:5063 Workerman[server.php] has been stopped
+2018-03-05 18:25:04 pid:5259 Workerman[./gamephp/test.php] restart 
+2018-03-05 18:25:04 pid:5259 Workerman[./gamephp/test.php] is stoping ...
+2018-03-05 18:25:04 pid:3572 Workerman[test.php] stopping ...
+2018-03-05 18:25:04 pid:3572 Workerman[test.php] has been stopped
+2018-03-05 18:25:04 pid:5259 Workerman[./gamephp/test.php] stop success
+2018-03-05 18:25:04 pid:5261 Workerman[./gamephp/game1.php] restart 
+2018-03-05 18:25:04 pid:5261 Workerman[./gamephp/game1.php] is stoping ...
+2018-03-05 18:25:04 pid:3576 Workerman[game1.php] stopping ...
+2018-03-05 18:25:04 pid:3576 Workerman[game1.php] has been stopped
+2018-03-05 18:25:04 pid:5261 Workerman[./gamephp/game1.php] stop success
+2018-03-05 18:25:04 pid:5265 Workerman[./gamephp/game2.php] restart 
+2018-03-05 18:25:04 pid:5265 Workerman[./gamephp/game2.php] is stoping ...
+2018-03-05 18:25:04 pid:3580 Workerman[game2.php] stopping ...
+2018-03-05 18:25:04 pid:3580 Workerman[game2.php] has been stopped
+2018-03-05 18:25:04 pid:5265 Workerman[./gamephp/game2.php] stop success
+2018-03-05 18:25:04 pid:5269 Workerman[./gamephp/game3.php] restart 
+2018-03-05 18:25:04 pid:5269 Workerman[./gamephp/game3.php] is stoping ...
+2018-03-05 18:25:04 pid:3584 Workerman[game3.php] stopping ...
+2018-03-05 18:25:04 pid:3584 Workerman[game3.php] has been stopped
+2018-03-05 18:25:06 pid:5273 Workerman[./server.php] restart 
+2018-03-05 18:25:06 pid:5273 Workerman[./server.php] is stoping ...
+2018-03-05 18:25:06 pid:5273 Workerman[./server.php] stop success
+2018-03-05 18:26:19 pid:5273 Workerman[server.php] stopping ...
+2018-03-05 18:26:19 pid:5273 Workerman[server.php] has been stopped
+2018-03-05 18:26:19 pid:5594 Workerman[./gamephp/test.php] restart 
+2018-03-05 18:26:19 pid:5594 Workerman[./gamephp/test.php] is stoping ...
+2018-03-05 18:26:19 pid:5262 Workerman[test.php] stopping ...
+2018-03-05 18:26:19 pid:5262 Workerman[test.php] has been stopped
+2018-03-05 18:26:19 pid:5594 Workerman[./gamephp/test.php] stop success
+2018-03-05 18:26:19 pid:5596 Workerman[./gamephp/game1.php] restart 
+2018-03-05 18:26:19 pid:5596 Workerman[./gamephp/game1.php] is stoping ...
+2018-03-05 18:26:19 pid:5266 Workerman[game1.php] stopping ...
+2018-03-05 18:26:19 pid:5266 Workerman[game1.php] has been stopped
+2018-03-05 18:26:19 pid:5596 Workerman[./gamephp/game1.php] stop success
+2018-03-05 18:26:19 pid:5600 Workerman[./gamephp/game2.php] restart 
+2018-03-05 18:26:19 pid:5600 Workerman[./gamephp/game2.php] is stoping ...
+2018-03-05 18:26:19 pid:5270 Workerman[game2.php] stopping ...
+2018-03-05 18:26:19 pid:5270 Workerman[game2.php] has been stopped
+2018-03-05 18:26:19 pid:5600 Workerman[./gamephp/game2.php] stop success
+2018-03-05 18:26:20 pid:5608 Workerman[./server.php] restart 
+2018-03-05 18:26:20 pid:5608 Workerman[./server.php] is stoping ...
+2018-03-05 18:26:20 pid:5608 Workerman[./server.php] stop success
+2018-03-05 18:26:47 pid:5608 Workerman[server.php] stopping ...
+2018-03-05 18:26:47 pid:5608 Workerman[server.php] has been stopped
+2018-03-05 18:26:47 pid:5667 Workerman[./gamephp/test.php] restart 
+2018-03-05 18:26:47 pid:5667 Workerman[./gamephp/test.php] is stoping ...
+2018-03-05 18:26:47 pid:5597 Workerman[test.php] stopping ...
+2018-03-05 18:26:47 pid:5597 Workerman[test.php] has been stopped
+2018-03-05 18:26:47 pid:5667 Workerman[./gamephp/test.php] stop success
+2018-03-05 18:26:47 pid:5669 Workerman[./gamephp/game1.php] restart 
+2018-03-05 18:26:47 pid:5669 Workerman[./gamephp/game1.php] is stoping ...
+2018-03-05 18:26:47 pid:5601 Workerman[game1.php] stopping ...
+2018-03-05 18:26:47 pid:5601 Workerman[game1.php] has been stopped
+2018-03-05 18:26:47 pid:5669 Workerman[./gamephp/game1.php] stop success
+2018-03-05 18:26:47 pid:5673 Workerman[./gamephp/game2.php] restart 
+2018-03-05 18:26:47 pid:5673 Workerman[./gamephp/game2.php] is stoping ...
+2018-03-05 18:26:47 pid:5605 Workerman[game2.php] stopping ...
+2018-03-05 18:26:47 pid:5605 Workerman[game2.php] has been stopped
+2018-03-05 18:26:47 pid:5673 Workerman[./gamephp/game2.php] stop success
+2018-03-05 18:26:47 pid:5677 Workerman[./gamephp/game3.php] restart 
+2018-03-05 18:26:47 pid:5677 Workerman[./gamephp/game3.php] is stoping ...
+2018-03-05 18:26:47 pid:5677 Workerman[./gamephp/game3.php] stop success
+2018-03-05 18:26:47 pid:5681 Workerman[./gamephp/game4.php] restart 
+2018-03-05 18:26:47 pid:5681 Workerman[./gamephp/game4.php] is stoping ...
+2018-03-05 18:26:47 pid:3588 Workerman[game4.php] stopping ...
+2018-03-05 18:26:47 pid:3588 Workerman[game4.php] has been stopped
+2018-03-05 18:26:47 pid:5681 Workerman[./gamephp/game4.php] stop success
+2018-03-05 18:26:47 pid:5683 Workerman[./gamephp/game5.php] restart 
+2018-03-05 18:26:47 pid:5683 Workerman[./gamephp/game5.php] is stoping ...
+2018-03-05 18:26:47 pid:3592 Workerman[game5.php] stopping ...
+2018-03-05 18:26:47 pid:3592 Workerman[game5.php] has been stopped
+2018-03-05 18:26:47 pid:5683 Workerman[./gamephp/game5.php] stop success
+2018-03-05 18:26:47 pid:5687 Workerman[./gamephp/game6.php] restart 
+2018-03-05 18:26:47 pid:5687 Workerman[./gamephp/game6.php] is stoping ...
+2018-03-05 18:26:47 pid:3596 Workerman[game6.php] stopping ...
+2018-03-05 18:26:47 pid:3596 Workerman[game6.php] has been stopped
+2018-03-05 18:26:47 pid:5687 Workerman[./gamephp/game6.php] stop success
+2018-03-05 18:26:48 pid:5691 Workerman[./gamephp/game10.php] restart 
+2018-03-05 18:26:48 pid:5691 Workerman[./gamephp/game10.php] is stoping ...
+2018-03-05 18:26:48 pid:3600 Workerman[game10.php] stopping ...
+2018-03-05 18:26:48 pid:3600 Workerman[game10.php] has been stopped
+2018-03-05 18:26:48 pid:5691 Workerman[./gamephp/game10.php] stop success
+2018-03-05 18:26:48 pid:5695 Workerman[./gamephp/game14.php] restart 
+2018-03-05 18:26:48 pid:5695 Workerman[./gamephp/game14.php] is stoping ...
+2018-03-05 18:26:48 pid:3604 Workerman[game14.php] stopping ...
+2018-03-05 18:26:48 pid:3604 Workerman[game14.php] has been stopped
+2018-03-05 18:26:48 pid:5695 Workerman[./gamephp/game14.php] stop success
+2018-03-05 18:26:48 pid:5699 Workerman[./gamephp/game15.php] restart 
+2018-03-05 18:26:48 pid:5699 Workerman[./gamephp/game15.php] is stoping ...
+2018-03-05 18:26:48 pid:3608 Workerman[game15.php] stopping ...
+2018-03-05 18:26:48 pid:3608 Workerman[game15.php] has been stopped
+2018-03-05 18:26:48 pid:5699 Workerman[./gamephp/game15.php] stop success
+2018-03-05 18:26:48 pid:5703 Workerman[./gamephp/game16.php] restart 
+2018-03-05 18:26:48 pid:5703 Workerman[./gamephp/game16.php] is stoping ...
+2018-03-05 18:26:48 pid:3612 Workerman[game16.php] stopping ...
+2018-03-05 18:26:48 pid:3612 Workerman[game16.php] has been stopped
+2018-03-05 18:26:48 pid:5703 Workerman[./gamephp/game16.php] stop success
+2018-03-05 18:26:48 pid:5707 Workerman[./gamephp/game17.php] restart 
+2018-03-05 18:26:48 pid:5707 Workerman[./gamephp/game17.php] is stoping ...
+2018-03-05 18:26:48 pid:3615 Workerman[game17.php] stopping ...
+2018-03-05 18:26:48 pid:3615 Workerman[game17.php] has been stopped
+2018-03-05 18:26:48 pid:5707 Workerman[./gamephp/game17.php] stop success
+2018-03-05 18:27:03 pid:5716 Workerman[./server.php] start in DAEMON mode
+2018-03-05 18:27:03 pid:5726 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:27:03 pid:5726 Workerman[./gamephp/test.php] already running
+2018-03-05 18:27:04 pid:5728 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5731 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5735 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5739 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5743 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5749 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5755 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5760 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5763 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5769 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:27:04 pid:5774 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:27:13 pid:5783 Workerman[./server.php] start in DAEMON mode
+2018-03-05 18:27:13 pid:5783 Workerman[./server.php] already running
+2018-03-05 18:27:13 pid:5789 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:27:13 pid:5789 Workerman[./gamephp/test.php] already running
+2018-03-05 18:27:13 pid:5790 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:27:13 pid:5793 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:27:13 pid:5795 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:27:14 pid:5798 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:27:14 pid:5801 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:27:14 pid:5801 Workerman[./gamephp/runtime9-game3.php] already running
+2018-03-05 18:27:14 pid:5803 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:27:14 pid:5805 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:27:14 pid:5808 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:27:14 pid:5811 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:27:14 pid:5814 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:27:14 pid:5817 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5842 Workerman[./server.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5842 Workerman[./server.php] already running
+2018-03-05 18:27:42 pid:5848 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5848 Workerman[./gamephp/test.php] already running
+2018-03-05 18:27:42 pid:5849 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5851 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5854 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5857 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5860 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5860 Workerman[./gamephp/runtime9-game3.php] already running
+2018-03-05 18:27:42 pid:5862 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5864 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5867 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:27:42 pid:5870 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:27:43 pid:5873 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:27:43 pid:5876 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:29:21 pid:1312 Workerman[./server.php] restart 
+2018-03-05 18:29:21 pid:1312 Workerman[./server.php] is stoping ...
+2018-03-05 18:29:21 pid:1312 Workerman[./server.php] stop success
+2018-03-05 18:36:06 pid:1312 Workerman[server.php] stopping ...
+2018-03-05 18:36:06 pid:1312 Workerman[server.php] has been stopped
+2018-03-05 18:36:06 pid:1722 Workerman[./gamephp/test.php] restart 
+2018-03-05 18:36:06 pid:1722 Workerman[./gamephp/test.php] is stoping ...
+2018-03-05 18:36:06 pid:1722 Workerman[./gamephp/test.php] stop success
+2018-03-05 18:36:06 pid:1724 Workerman[./gamephp/game1.php] restart 
+2018-03-05 18:36:06 pid:1724 Workerman[./gamephp/game1.php] is stoping ...
+2018-03-05 18:36:06 pid:1724 Workerman[./gamephp/game1.php] stop success
+2018-03-05 18:36:06 pid:1728 Workerman[./gamephp/game2.php] restart 
+2018-03-05 18:36:06 pid:1728 Workerman[./gamephp/game2.php] is stoping ...
+2018-03-05 18:36:06 pid:1728 Workerman[./gamephp/game2.php] stop success
+2018-03-05 18:36:06 pid:1732 Workerman[./gamephp/game3.php] restart 
+2018-03-05 18:36:06 pid:1732 Workerman[./gamephp/game3.php] is stoping ...
+2018-03-05 18:36:06 pid:1732 Workerman[./gamephp/game3.php] stop success
+2018-03-05 18:36:06 pid:1737 Workerman[./gamephp/game4.php] restart 
+2018-03-05 18:36:06 pid:1737 Workerman[./gamephp/game4.php] is stoping ...
+2018-03-05 18:36:06 pid:1737 Workerman[./gamephp/game4.php] stop success
+2018-03-05 18:36:06 pid:1740 Workerman[./gamephp/game5.php] restart 
+2018-03-05 18:36:06 pid:1740 Workerman[./gamephp/game5.php] is stoping ...
+2018-03-05 18:36:06 pid:1740 Workerman[./gamephp/game5.php] stop success
+2018-03-05 18:36:06 pid:1744 Workerman[./gamephp/game6.php] restart 
+2018-03-05 18:36:06 pid:1744 Workerman[./gamephp/game6.php] is stoping ...
+2018-03-05 18:36:06 pid:1744 Workerman[./gamephp/game6.php] stop success
+2018-03-05 18:36:07 pid:1748 Workerman[./gamephp/game10.php] restart 
+2018-03-05 18:36:07 pid:1748 Workerman[./gamephp/game10.php] is stoping ...
+2018-03-05 18:36:07 pid:1748 Workerman[./gamephp/game10.php] stop success
+2018-03-05 18:36:12 pid:1756 Workerman[./server.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1767 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1767 Workerman[./gamephp/test.php] already running
+2018-03-05 18:36:12 pid:1768 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1771 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1777 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1782 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1787 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1790 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1795 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1802 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1806 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1815 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:36:12 pid:1822 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:37:11 pid:1901 Workerman[./server.php] start in DAEMON mode
+2018-03-05 18:37:11 pid:1901 Workerman[./server.php] already running
+2018-03-05 18:37:11 pid:1907 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:37:11 pid:1907 Workerman[./gamephp/test.php] already running
+2018-03-05 18:37:11 pid:1908 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1910 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1914 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1916 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1919 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1922 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1922 Workerman[./gamephp/runtime10-game14.php] already running
+2018-03-05 18:37:12 pid:1924 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1926 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1926 Workerman[./gamephp/runtime13-game15.php] already running
+2018-03-05 18:37:12 pid:1928 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1930 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1930 Workerman[./gamephp/runtime17-game16.php] already running
+2018-03-05 18:37:12 pid:1932 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:37:12 pid:1932 Workerman[./gamephp/runtime18-game17.php] already running
+2018-03-05 18:37:26 pid:1947 Workerman[./server.php] start in DAEMON mode
+2018-03-05 18:37:26 pid:1947 Workerman[./server.php] already running
+2018-03-05 18:37:26 pid:1953 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:37:26 pid:1953 Workerman[./gamephp/test.php] already running
+2018-03-05 18:37:26 pid:1954 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:37:26 pid:1956 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:37:26 pid:1959 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:37:26 pid:1963 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:37:26 pid:1965 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:37:27 pid:1968 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:37:27 pid:1968 Workerman[./gamephp/runtime10-game14.php] already running
+2018-03-05 18:37:27 pid:1970 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:37:27 pid:1972 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:37:27 pid:1972 Workerman[./gamephp/runtime13-game15.php] already running
+2018-03-05 18:37:27 pid:1974 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:37:27 pid:1976 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:37:27 pid:1976 Workerman[./gamephp/runtime17-game16.php] already running
+2018-03-05 18:37:27 pid:1978 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:37:27 pid:1978 Workerman[./gamephp/runtime18-game17.php] already running
+2018-03-05 18:38:15 pid:1995 Workerman[./server.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:1995 Workerman[./server.php] already running
+2018-03-05 18:38:15 pid:2001 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2001 Workerman[./gamephp/test.php] already running
+2018-03-05 18:38:15 pid:2002 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2004 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2007 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2010 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2013 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2016 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2016 Workerman[./gamephp/runtime10-game14.php] already running
+2018-03-05 18:38:15 pid:2018 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2020 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2020 Workerman[./gamephp/runtime13-game15.php] already running
+2018-03-05 18:38:15 pid:2022 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2024 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2024 Workerman[./gamephp/runtime17-game16.php] already running
+2018-03-05 18:38:15 pid:2026 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:38:15 pid:2026 Workerman[./gamephp/runtime18-game17.php] already running
+2018-03-05 18:39:52 pid:2044 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2044 Workerman[./gamephp/test.php] already running
+2018-03-05 18:39:52 pid:2045 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2047 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2050 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2054 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2056 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2059 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2059 Workerman[./gamephp/runtime10-game14.php] already running
+2018-03-05 18:39:52 pid:2061 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2064 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2064 Workerman[./gamephp/runtime13-game15.php] already running
+2018-03-05 18:39:52 pid:2065 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2067 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2067 Workerman[./gamephp/runtime17-game16.php] already running
+2018-03-05 18:39:52 pid:2069 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:39:52 pid:2069 Workerman[./gamephp/runtime18-game17.php] already running
+2018-03-05 18:42:08 pid:2260 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:42:08 pid:2260 Workerman[./gamephp/test.php] already running
+2018-03-05 18:42:08 pid:2261 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:42:08 pid:2263 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:42:08 pid:2267 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:42:08 pid:2269 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:42:08 pid:2272 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:42:08 pid:2275 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:42:08 pid:2275 Workerman[./gamephp/runtime10-game14.php] already running
+2018-03-05 18:42:08 pid:2277 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:42:08 pid:2279 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:42:08 pid:2279 Workerman[./gamephp/runtime13-game15.php] already running
+2018-03-05 18:42:08 pid:2281 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:42:09 pid:2283 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:42:09 pid:2283 Workerman[./gamephp/runtime17-game16.php] already running
+2018-03-05 18:42:09 pid:2285 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:42:09 pid:2285 Workerman[./gamephp/runtime18-game17.php] already running
+2018-03-05 18:42:16 pid:2287 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2287 Workerman[./gamephp/test.php] already running
+2018-03-05 18:42:16 pid:2288 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2290 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2293 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2296 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2299 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2302 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2302 Workerman[./gamephp/runtime10-game14.php] already running
+2018-03-05 18:42:16 pid:2304 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2306 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2306 Workerman[./gamephp/runtime13-game15.php] already running
+2018-03-05 18:42:16 pid:2308 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2310 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2310 Workerman[./gamephp/runtime17-game16.php] already running
+2018-03-05 18:42:16 pid:2312 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-05 18:42:16 pid:2312 Workerman[./gamephp/runtime18-game17.php] already running
+2018-03-05 19:00:34 pid:1897 Workerman[./server.php] start in DAEMON mode
+2018-03-05 19:00:34 pid:1906 Workerman[./gamephp/test.php] start in DAEMON mode
+2018-03-05 19:00:34 pid:1911 Workerman[./gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-05 19:00:34 pid:1918 Workerman[./gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-05 19:00:34 pid:1922 Workerman[./gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-05 19:00:35 pid:1929 Workerman[./gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-05 19:00:35 pid:1935 Workerman[./gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-05 19:00:35 pid:1940 Workerman[./gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-05 19:00:35 pid:1945 Workerman[./gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-05 19:00:35 pid:1952 Workerman[./gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-05 19:00:35 pid:1966 Workerman[./gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-05 19:00:35 pid:1993 Workerman[./gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-05 19:00:35 pid:2005 Workerman[./gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2933 Workerman[/www/wwwroot/g/auto/gamephp/test.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2936 Workerman[/www/wwwroot/g/auto/gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2940 Workerman[/www/wwwroot/g/auto/gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2944 Workerman[/www/wwwroot/g/auto/gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2948 Workerman[/www/wwwroot/g/auto/gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2952 Workerman[/www/wwwroot/g/auto/gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2956 Workerman[/www/wwwroot/g/auto/gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2960 Workerman[/www/wwwroot/g/auto/gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2964 Workerman[/www/wwwroot/g/auto/gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2968 Workerman[/www/wwwroot/g/auto/gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2972 Workerman[/www/wwwroot/g/auto/gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-17 12:34:21 pid:2976 Workerman[/www/wwwroot/g/auto/gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-17 12:47:44 pid:2939 Workerman[runtime2-game2.php] stopping ...
+2018-03-17 12:47:44 pid:2979 Workerman[runtime18-game17.php] stopping ...
+2018-03-17 12:47:44 pid:2943 Workerman[runtime5-game1.php] stopping ...
+2018-03-17 12:47:44 pid:2967 Workerman[runtime13-game15.php] stopping ...
+2018-03-17 12:47:44 pid:2947 Workerman[runtime6-game5.php] stopping ...
+2018-03-17 12:47:44 pid:2947 worker[none:2949] exit with status 4991
+2018-03-17 12:47:44 pid:2955 Workerman[runtime9-game3.php] stopping ...
+2018-03-17 12:47:44 pid:2947 Workerman[runtime6-game5.php] has been stopped
+2018-03-17 12:47:44 pid:2975 Workerman[runtime17-game16.php] stopping ...
+2018-03-17 12:47:44 pid:2963 Workerman[runtime11-game4.php] stopping ...
+2018-03-17 12:47:44 pid:2951 Workerman[runtime8-game10.php] stopping ...
+2018-03-17 12:47:44 pid:2971 Workerman[runtime14-game6.php] stopping ...
+2018-03-17 12:47:44 pid:2959 Workerman[runtime10-game14.php] stopping ...
+2018-03-17 12:47:44 pid:2959 worker[none:2961] exit with status 4991
+2018-03-17 12:47:44 pid:2959 Workerman[runtime10-game14.php] has been stopped
+2018-03-17 12:47:44 pid:2935 Workerman[test.php] stopping ...
+2018-03-17 12:47:44 pid:2951 worker[none:2953] exit with status 4991
+2018-03-17 12:47:44 pid:2951 Workerman[runtime8-game10.php] has been stopped
+2018-03-17 12:48:34 pid:1743 Workerman[/www/wwwroot/g/auto/gamephp/test.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1746 Workerman[/www/wwwroot/g/auto/gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1750 Workerman[/www/wwwroot/g/auto/gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1754 Workerman[/www/wwwroot/g/auto/gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1758 Workerman[/www/wwwroot/g/auto/gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1762 Workerman[/www/wwwroot/g/auto/gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1766 Workerman[/www/wwwroot/g/auto/gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1770 Workerman[/www/wwwroot/g/auto/gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1774 Workerman[/www/wwwroot/g/auto/gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1778 Workerman[/www/wwwroot/g/auto/gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1782 Workerman[/www/wwwroot/g/auto/gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-17 12:48:34 pid:1786 Workerman[/www/wwwroot/g/auto/gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1826 Workerman[/www/wwwroot/g/auto/gamephp/test.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1826 Workerman[/www/wwwroot/g/auto/gamephp/test.php] already running
+2018-03-17 12:49:17 pid:1827 Workerman[/www/wwwroot/g/auto/gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1827 Workerman[/www/wwwroot/g/auto/gamephp/runtime2-game2.php] already running
+2018-03-17 12:49:17 pid:1828 Workerman[/www/wwwroot/g/auto/gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1828 Workerman[/www/wwwroot/g/auto/gamephp/runtime5-game1.php] already running
+2018-03-17 12:49:17 pid:1829 Workerman[/www/wwwroot/g/auto/gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1829 Workerman[/www/wwwroot/g/auto/gamephp/runtime6-game5.php] already running
+2018-03-17 12:49:17 pid:1830 Workerman[/www/wwwroot/g/auto/gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1830 Workerman[/www/wwwroot/g/auto/gamephp/runtime8-game10.php] already running
+2018-03-17 12:49:17 pid:1831 Workerman[/www/wwwroot/g/auto/gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1831 Workerman[/www/wwwroot/g/auto/gamephp/runtime9-game3.php] already running
+2018-03-17 12:49:17 pid:1832 Workerman[/www/wwwroot/g/auto/gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1832 Workerman[/www/wwwroot/g/auto/gamephp/runtime10-game14.php] already running
+2018-03-17 12:49:17 pid:1833 Workerman[/www/wwwroot/g/auto/gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1833 Workerman[/www/wwwroot/g/auto/gamephp/runtime11-game4.php] already running
+2018-03-17 12:49:17 pid:1834 Workerman[/www/wwwroot/g/auto/gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1834 Workerman[/www/wwwroot/g/auto/gamephp/runtime13-game15.php] already running
+2018-03-17 12:49:17 pid:1835 Workerman[/www/wwwroot/g/auto/gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1835 Workerman[/www/wwwroot/g/auto/gamephp/runtime14-game6.php] already running
+2018-03-17 12:49:17 pid:1836 Workerman[/www/wwwroot/g/auto/gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1836 Workerman[/www/wwwroot/g/auto/gamephp/runtime17-game16.php] already running
+2018-03-17 12:49:17 pid:1837 Workerman[/www/wwwroot/g/auto/gamephp/runtime18-game17.php] start in DAEMON mode
+2018-03-17 12:49:17 pid:1837 Workerman[/www/wwwroot/g/auto/gamephp/runtime18-game17.php] already running
+2018-03-17 12:53:33 pid:1773 Workerman[runtime11-game4.php] stopping ...
+2018-03-17 12:53:33 pid:1781 Workerman[runtime14-game6.php] stopping ...
+2018-03-17 12:53:33 pid:1749 Workerman[runtime2-game2.php] stopping ...
+2018-03-17 12:53:33 pid:1749 worker[none:1751] exit with status 4991
+2018-03-17 12:53:33 pid:1785 Workerman[runtime17-game16.php] stopping ...
+2018-03-17 12:53:33 pid:1749 Workerman[runtime2-game2.php] has been stopped
+2018-03-17 12:53:33 pid:1777 Workerman[runtime13-game15.php] stopping ...
+2018-03-17 12:53:33 pid:1761 Workerman[runtime8-game10.php] stopping ...
+2018-03-17 12:53:33 pid:1769 Workerman[runtime10-game14.php] stopping ...
+2018-03-17 12:53:33 pid:1789 Workerman[runtime18-game17.php] stopping ...
+2018-03-17 12:53:33 pid:1789 worker[none:1791] exit with status 4991
+2018-03-17 12:53:33 pid:1789 Workerman[runtime18-game17.php] has been stopped
+2018-03-17 12:53:33 pid:1753 Workerman[runtime5-game1.php] stopping ...
+2018-03-17 12:53:33 pid:1757 Workerman[runtime6-game5.php] stopping ...
+2018-03-17 12:53:33 pid:1765 Workerman[runtime9-game3.php] stopping ...
+2018-03-17 12:53:33 pid:1765 worker[none:1767] exit with status 4991
+2018-03-17 12:53:33 pid:1765 Workerman[runtime9-game3.php] has been stopped
+2018-03-17 12:53:33 pid:1745 Workerman[test.php] stopping ...
+2018-03-17 12:55:35 pid:1732 Workerman[/www/wwwroot/g/auto/gamephp/test.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1735 Workerman[/www/wwwroot/g/auto/gamephp/runtime2-game2.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1739 Workerman[/www/wwwroot/g/auto/gamephp/runtime5-game1.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1743 Workerman[/www/wwwroot/g/auto/gamephp/runtime6-game5.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1747 Workerman[/www/wwwroot/g/auto/gamephp/runtime8-game10.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1751 Workerman[/www/wwwroot/g/auto/gamephp/runtime9-game3.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1755 Workerman[/www/wwwroot/g/auto/gamephp/runtime10-game14.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1759 Workerman[/www/wwwroot/g/auto/gamephp/runtime11-game4.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1763 Workerman[/www/wwwroot/g/auto/gamephp/runtime13-game15.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1767 Workerman[/www/wwwroot/g/auto/gamephp/runtime14-game6.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1771 Workerman[/www/wwwroot/g/auto/gamephp/runtime17-game16.php] start in DAEMON mode
+2018-03-17 12:55:35 pid:1775 Workerman[/www/wwwroot/g/auto/gamephp/runtime18-game17.php] start in DAEMON mode
